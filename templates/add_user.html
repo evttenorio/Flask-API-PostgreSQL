@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+-->
+<link rel="stylesheet" type="text/css" href="static/css/style.css">
+</head>
+<html>
+<body>
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+    <h2 class="active"> Sign In </h2>
+    <h2 class="inactive underlineHover">Sign Up </h2>
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9n3qqVGzSz7zwKCDzGPb8AKXMfRnQYH1R5iLMZ4VKDUZNNXJt&s" id="icon" alt="User Icon" />
+    </div>
+
+    <!-- Login Form -->
+    <form>
+      <label>Nome:</label>
+      <input id="username" name="username" class="fadeIn second" type="text">
+      <label>Email:</label>
+      <input id="email" name="email" class="fadeIn third" type="text">
+
+      <!--<input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
+      <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+      -->
+      <input type="submit" class="fadeIn fourth" value="Clique">
+    </form>
+
+    <!-- Remind Passowrd -->
+    <div id="formFooter">
+      <a class="underlineHover" href="#">Esqueceu?</a>
+    </div>
+
+   {% for user in myUser %}
+       <li>{{ user.username }} - {{ user.email }}</li>
+   {% endfor %}
+
+   {{ oneItem }}
+
+  </div>
+</div>
+
+</body>
+</html>

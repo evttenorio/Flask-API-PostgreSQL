@@ -1,3 +1,5 @@
+pip install flask-security
+
 pip install Flask-SQLAlchemy
 
 postgresql-server-dev-10
