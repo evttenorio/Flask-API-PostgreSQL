@@ -1,0 +1,5 @@
+pip install Flask-SQLAlchemy
+
+postgresql-server-dev-10
+
+pip install psycopg2
