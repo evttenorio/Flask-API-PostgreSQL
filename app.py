@@ -4,7 +4,7 @@ from flask import request, redirect, url_for, render_template
 #from flask_security import Security, SQLAlchemyUserDatastore, UserMixin, RoleMixin, login_required
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:l4bs020192@banco/postgres'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:[PASS]@banco/postgres'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SECRET_KEY'] = 'super-secret'
 app.config['SECURITY_REGISTERABLE'] = True
