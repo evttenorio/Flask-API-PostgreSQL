@@ -1,8 +1,16 @@
 <!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css" href="static/css/style.css">
+</head>
 <html>
 <body>
 
-    <h1>Perfil do(a) {{ user.username }}</h1>
-    <h2>email: {{ user.email }}</h2>
+    <h1 style="color:white">Lista dos cadastrados</h1>    
+   {% for user in myUser %}
+     <li style="color:white;list-style-type: none">{{ user.username }} - {{ user.email }}</li>
+   {% endfor %}
+
+   {{ oneItem }}
+
 </body>
 </html>
