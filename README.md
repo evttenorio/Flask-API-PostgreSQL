@@ -9,5 +9,5 @@ Pequeno projeto para disciplina de Laboratório de Redes e Sistemas Operacionais
 - [PostgreSQL](https://www.postgresql.org)
 - Linux
 
-Referências
+### Referências
 [Chris Hawkes channel - Playlist Flask Tutorial](https://www.youtube.com/watch?v=gDSLrpxR3G4&list=PLei96ZX_m9sWQco3fwtSMqyGL-JDQo28l)
