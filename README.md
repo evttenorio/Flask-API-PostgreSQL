@@ -1,4 +1,4 @@
-Projeto básico de uma API Rest com Flask consumindo banco de dados PostgreSQL, com Docker.
+Projeto básico de uma API Rest com Flask consumindo banco de dados PostgreSQL
 
 ## Tecnologias utilizadas
 
