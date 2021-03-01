@@ -1,10 +1,12 @@
 Projeto básico de uma API Rest com Flask consumindo banco de dados PostgreSQL
 
+```sh
 pip install flask
 pip install flask-security
 pip install Flask-SQLAlchemy
 apt install postgresql-server-dev-10 -y
 pip install psycopg2
+```
 
 ## Tecnologias utilizadas
 
